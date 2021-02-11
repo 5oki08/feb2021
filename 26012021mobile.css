@@ -1,0 +1,162 @@
+@media only screen and (max-width: 600px) {
+	
+
+/**********************************************************************/
+/*home page*/	
+	#topnavigationoptions {
+		display: block;
+	}
+	#nav-img {}
+	.nav-link {
+		margin-left: 10em;
+	}
+
+	#bodyinformation {
+		width: 100%;
+	}
+
+	#portfolio {
+		max-width: 100%;
+	}
+	.companyPortfolioimages {
+		width: 100%;
+	}
+	#welcomemessage {
+		font-size: 2.5em;
+	}
+	#welcomeimage {
+		text-align: center;
+		margin-left: 4.3em;
+		margin-top: none;
+	}
+	#welcomerow1 {
+		margin-top: 3.5em;
+	}
+
+
+
+	#simplestatsrow1 {
+		padding: 1.4em;
+		text-align: center;
+	}
+	#statsfigures2 {
+		margin-top: 25px;
+	}
+	#statsfigures3 {
+		margin-top: 25px;
+	}
+
+
+
+	#companypraisetitle {
+		margin-top: 1.3em;
+	}
+	#companypraisecontent {
+		padding: 2.5em;
+	}
+
+
+
+	#productsintro {
+		padding: 3.5em;
+	}
+	#commoditiesheader {
+		margin-top: 8px;
+	}
+	#productsbutton {
+		margin-bottom: 35px;
+	}
+
+
+	#socialmediaiconinst {
+		width: 14%;
+		padding: 0.8em;
+	}
+	#socialmediaiconfb {
+		width: 14%;
+		padding: 0.8em;
+	}
+	#socialmediaiconlinkedin {
+		width: 14%;
+		padding: 0.8em;
+	}
+	#socialmediaiconwhatsapp {
+		width: 14%;
+		padding: 0.8em;
+	}
+
+
+
+/**********************************************************************/
+/*about page*/
+#aboutmessage {
+	padding: 1.2em;
+}
+#aboutmsg2 {
+	margin-top: 34px;
+	margin-bottom: 34px;
+}
+#aboutmsgcolimg {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+#aboutmessageimg {
+	width: 22em;
+	margin-left: 4.7em;
+	box-shadow: 4px 4px 4px 4px #cecece;
+}
+
+
+
+
+#aboutcorevalues {
+	float: center;
+	margin: 0 auto;
+}
+#aboutcorevaluesgraph {
+	width: 25em;
+}
+#corevaluescol2 {
+	padding: 1.4em;
+	margin: 0 auto;
+	font-size: 1.4em;
+	text-align: left;
+}
+
+
+
+
+#missionvisionQA {
+	padding: 2em;
+}
+#mission {}
+#vision {
+	margin-top: 5.5em;
+}
+#QA {
+	margin-top: 5.5em;
+	margin-bottom: 10em;
+}
+#missionvisionQAimg {
+	margin-left: 30px;
+}
+
+
+
+
+
+
+#facandcapheader {
+	font-size: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+}

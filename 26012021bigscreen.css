@@ -1,0 +1,491 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 1350px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-style: normal;
+	color: #777777;
+    background-color: #ffffff;
+}
+
+
+/**********************************************************************/
+/*home page*/
+#topnavigation {
+	background-color: #c49d2d;
+	position: sticky;
+}
+#topnavigationoptions {
+	position: sticky;
+}
+#nav-img {
+	border: none;
+	width: 8rem;
+	padding: none;
+}
+.nav-link {
+	color: #000000;
+	width: 30%;
+	height: 100%;
+	padding: 1.2em;
+	text-align: center;
+	float: none;
+}
+.nav-link:hover {
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+
+#bodyinformationhome {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+
+#portfolio {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.companyPortfolio {}
+.companyPortfolioimages {
+	object-position: center;
+	width: 100%;
+}
+
+
+#welcomearea {
+	padding: 2em;
+	margin-top: 3em;
+}
+#welcomemessage {
+	font-size: 3.2em;
+	text-align: center;
+}
+#welcomeimage {
+	width: 14.5em;
+	height: 14.5em;
+}
+#welcomerow1 {
+	margin-top: 2.4em;
+}
+#welcomesignature {
+	width: 18em;
+}
+#welcomecol1 {}
+#welcomecol2 {}
+
+
+
+#simplestats {
+	background-color: #c49d2d;
+}
+#simplestatsrow1 {
+	padding: 2.1em;
+	text-align: center;
+}
+#statsfigures1 {
+	font-size: 45px;	
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+#statsfigures2 {
+	font-size: 45px;	
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+#statsfigures3 {
+	font-size: 45px;	
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+#companypraise {
+	background-image: url(https://images.unsplash.com/photo-1601171762745-71734e8f1d08?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+/*	filter: blur(8px); */
+}
+#companypraisecontent {
+	padding: 5.5em;
+}
+#more {
+	display: none;
+}
+#companypraisereadmorelessbtn {
+	border: none;
+	padding: 0.3em;
+	border-radius: 2px;
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+#productsintro {
+	background-color: #c49d2d;
+	padding: 5.5em;
+}
+#commoditiesheader {
+	float: none;
+	text-align: left;
+	font-size:2.6em;
+	color: #fff;
+}
+#productsbutton {
+	box-shadow: 2px 2px 2px 2px #5a5a5a;
+	background-color: #c49d2d;
+	border: none;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	border-radius: 4px;
+}
+#productsbutton:hover {
+	background-color: #a38426;
+}
+#productslink {
+	color: #fff;
+}
+#productslink:hover {
+	text-decoration: none;
+}
+#accordion {
+	background-color: #c49d2d;
+	border:1px solid #fff;
+	border-radius: 2px;
+	padding: 1.5px;
+	margin-bottom: 4.4px;
+	margin-top: 4.4px;
+}
+.card {}
+.card-header {
+	float: none;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+}
+.card-header:hover {
+	background-color: #ececec;
+}
+.card-link {
+	color: #2d8a39;
+	border-bottom: none;
+}
+.card-link:hover {
+	color: #2d8a39;
+}
+.card-body {}
+
+
+
+
+#facilities {
+	padding: 5.5em;
+	background-image: url(https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.facilitieslearnmorelink {
+	box-shadow: 2px 2px 2px 2px #5a5a5a;
+	background-color: #c49d2d;
+	border: none;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	border-radius: 4px;
+}
+.facilitieslearnmorelink:hover {
+	background-color: #a38426;
+}
+.facilitieslearnmorelink {
+	color: #fff;
+}
+
+
+
+
+#officelocations {
+	text-align: center;
+	font-size: 13px;
+	padding: 2.5em;
+	background-color: #e2e2e2;
+	height: 50%;
+}
+#companyimage {
+	width: 10em;
+}
+#officephone {
+	width: 18px;
+}
+#officeemail {
+	width: 18px;
+}
+
+
+
+
+#footer {
+	padding: 3.5em;
+	background-color: #c49d2d;
+}
+#socials {
+	text-align: center;
+}
+.socialmedialink {}
+.socialmedialink:hover {
+	text-decoration: none;
+}
+#socialmediaiconinst {
+	width: 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	padding: 0.2;
+	background-color: #c5c5c5;
+}
+#socialmediaiconinst:hover {
+	background-color: #C13584;
+}
+#socialmediaiconfb {
+	width: 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	padding: 0.2em;
+	background-color: #c5c5c5;
+}
+#socialmediaiconfb:hover {
+	background-color: #3b5998;
+}
+#socialmediaiconlinkedin {
+	width: 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	padding: 0.2em;
+	background-color: #c5c5c5;
+}
+#socialmediaiconlinkedin:hover {
+	background-color: #3b5998;
+}
+#socialmediaiconwhatsapp {
+	width: 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	padding: 0.2em;
+	background-color: #c5c5c5;
+}
+#socialmediaiconwhatsapp:hover {
+	background-color: 	#25D366;
+}
+.footerlink {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	color: #fff;
+}
+.footerlink:hover {
+	color: #e8af09;
+	text-decoration: none;
+}
+
+
+
+
+/**********************************************************************/
+/*about page*/
+#bodyinformationabout {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+
+
+
+#aboutintro {
+	background-image: url(https://images.unsplash.com/photo-1582173649515-0f9582d58e60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=469&q=80) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#aboutmessage {
+	padding: 2.5em;
+}
+#aboutmsg2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#aboutmsgcolimg {
+	column-gap: 5px;
+}
+#aboutmessageimg {
+	width: 16em;
+}
+
+
+
+#aboutcorevalues {
+	padding: 5.5em;
+}
+#corevaluesrow {
+	margin-top: 18px;
+}
+#aboutcorevaluesgraph {}
+#corevalueslisting {
+	list-style-type: "\1F44D";
+}
+#corevaluescol1 {
+	padding: 2em;
+}
+#corevaluescol2 {
+	padding: 2em;
+	font-size: 1.6em;
+}
+
+
+
+
+
+#missionvisionQA {
+	background-color: #cecece;
+	padding: 9.7em;
+	margin-top: none;
+}
+#mission {}
+#vision {
+	margin-top: 2.6em;
+}
+#QA {
+	margin-top: 2.6em;
+}
+#missionvisionQAimg {
+	width: 67%;
+}
+
+
+
+
+
+#facandcap {
+	text-align: center;
+	padding: 5em;
+	background-image: url(https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#facandcapheader {
+	font-size: 47px;
+	color: #fff;
+}
+#facrow {
+	margin-top: 4em;
+}
+#facfigures {
+	font-size: 3em;
+	color: #c49d2d;
+	font-weight: 600;
+}
+#facandcapimg {
+	width: 2.4em;
+}
+.learnmorebtn {
+	box-shadow: 2px 2px 2px 2px #5a5a5a;
+	background-color: #c49d2d;
+	border: none;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	border-radius: 4px;
+	margin-top: 3.4em;
+}
+
+
+
+
+
+
+#getintouch {
+	text-align: center;
+	padding: 5.8em;
+	color: #fff;
+	background-color: #c49d2d;
+}
+.contactusbtn {
+	box-shadow: 2px 2px 2px 2px #5a5a5a;
+	background-color: #c49d2d;
+	border: none;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	border-radius: 4px;
+	margin-top: 1.9em;
+	color: #fff;
+	font-weight: 600;
+}
+.contactusbtn:hover {
+	background-color: #808080;
+}
+
+
+
+
+
+
+
+
+/**********************************************************************/
+/*products page*/
+#bodyinformationabout {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+
+
+
+#ourproductsintro {}
+#mapnaturalcommodities {}
+#naturalcommoditiesmap {}
+#allproducts {}
+#productsnav1 {}
+#productslink1 {}
+#productslink2 {}
+#accordion {}
+#productcard {}
+#productsimg {
+	width: 24%;
+}
+#naturalsesameseeds {}
+
+
+
+
+
+
+
+
+
+
+
