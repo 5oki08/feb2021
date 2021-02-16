@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+#navigator {}
+.nav-link {
+	width: 50%;
+	text-align: center;
+	border-bottom: 2px solid;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+.nav-link:hover {
+	color: #000;
+	background-color: #2cf261;
+	border-radius: 8px;
+	border: none;
+}
+
+
+
+#body1 {}
+#welcomemsg {
+	text-align: right;
+	margin-top: 9px;
+}
+#row1 {
+	justify-content: stretch;
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+#col1 {
+	/*background-color: #75687c;*/
+	border: 2px solid;
+}
+#col2 {
+	/*background-color: #f1ae2c;*/
+	border: 2px solid;
+}
+#col3 {
+	/*background-color: #6f98c5;*/
+	border: 2px solid;
+}
+#row1col1txt {
+	margin-top: 20px;
+}
