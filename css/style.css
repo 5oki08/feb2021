@@ -1,0 +1,183 @@
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+#grid-item1 {
+	grid-area: header;
+	padding: 30px;
+
+	background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-bottom: 4px solid;
+}
+#grid-item2 {
+	grid-area: nav;
+	padding: 30px;
+	border-right: 4px solid;
+}
+#grid-item3 {
+	grid-area: intro;
+	background-color: #bf34a6;
+	padding: 30px;
+	column-count: 3;
+	column-gap: 15px;
+	border-radius: 5px;
+/*	border-top: 4px solid;*/
+}
+#grid-item4 {
+	grid-area: exp;
+/*	background-color: #32864e;*/
+	padding: 30px;
+	justify-content: center;
+}
+#grid-item5 {
+	grid-area: basement;
+	background-color: #dfc16d;
+	padding: 30px;
+}
+#grid-item6 {
+	grid-area: basement1;
+	background-color: #d66e57;
+	padding: 30px;
+}
+#grid-item7 {
+	grid-area: footer;
+	background-color: tomato;
+	padding: 30px;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+	'header header header header header header header'
+	'nav intro intro intro intro intro intro'
+	'nav exp exp exp exp exp exp'
+	'nav basement basement basement basement basement basement'
+	'nav basement1 basement1 basement1 basement1 basement1 basement1'
+	'nav footer footer footer footer footer footer'
+	;
+	grid-gap: 10px;
+}
+
+
+/* grid content */
+
+/*grid-item1*/
+#topmsg {
+	color: #000;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;
+	align-items: center;*/
+}
+.flexitem {
+	padding: 15px;
+	font-size: 1.1em;
+	/*border: 2px solid;*/
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+}
+.flexitem:hover {
+	background-color: tomato;
+	font-weight: bold;
+}
+a:hover {text-decoration:none; color:#FFBD33;}
+
+
+
+/*#flex2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flexitem2 {
+	margin: 10px;
+}*/
+
+
+grid-item2
+
+
+grid-item3
+
+
+
+
+
+grid-item4
+/*#gicol1 {
+	background-image: url('https://i.pinimg.com/originals/82/2f/d7/822fd794278685dd2e04d9c113f4ea88.jpg');
+	background-size: cover;
+
+}*/
+
+#chairmsg {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#chairimg {
+	align-self: center;
+}
+#chairtxt {
+	align-self: center;
+	padding: 38px;
+}
+#chairtitle {
+	margin-bottom: 20px;
+	border-bottom: 2px solid;
+	text-align: center;
+}
+
+
+
+
+
+grid-item5
+#flex3 {}
+#flexrow1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flexcol1 {
+	flex: 25%;
+  	max-width: 25%;
+}
+#RareKind {
+	margin: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+grid-item6
+
+
+
+
+
+grid-item7
