@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Bootstrap Refresh</title>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -8,82 +10,122 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>	
 
-<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Bootstrap Refresh</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 
+<div class="container-fluid bg-dark">
+	<nav class="navbar navbar-expand">
+		
+		<img src="images/f1logo.png" alt="Company Logo" width="40" height="40" style="margin:10px;">
+		
+		<ul class="navbar-nav" id="navigateul">
+			<li class="navbar-item" id="navigate">
+				<a href="home.html" class="nav-link" >Upload Movie</a>
+			</li>
+			<li class="navbar-item" id="navigate">
+				<a href="public/showmovie.html" class="nav-link" >Show Movie</a>
+			</li>
+			<li class="navbar-item" id="navigate">
+				<a href="#" class="nav-link" >Admin</a>
+			</li>
+			<li class="navbar-item" id="navigate">
+				<a href="#" class="nav-link" >User Management</a>
+			</li>
+		</ul>
 
-<!-- social links styling -->
-<div>
-	
-<a href="https://twitter.com/f1" target="_blank">
-	<img src="images/f1logo.png" width="40" height="40" style="display: inline-block;">
-</a>
-
-
-<a href="https://facebook.com" target="_blank">
-	<img src="images/facebook.png" width="40" height="40" style="display: inline-block;">
-</a>
-
-
-<!-- mail link -->
-<a href="mailto:herewego@yahoo.com?subject=You ready&body=content" target="_blank">
-	<img src="images/email.png" width="40" height="40" style="display: inline-block;">
-</a>
-
-
-<!-- text message link -->
-<a href="sms:0700000000?body=i want to rent ..." target="_blank">
-	<img src="images/messaging.png" width="40" height="40" style="display: inline-block;">
-</a>
-
-
-<!-- telephone link -->
-<a href="tel:0700000000" target="_blank">
-	<img src="images/phone.png" width="40" height="40" style="display: inline-block;">
-</a>
-
+		<form class="form-inline" action="#" method="post" style="float:right;">
+			<input type="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+	</nav>
 </div>
 
-<br/> <br/> <Br/>
+<br/>
 
+<div class="row">
 
+	<div class="col-sm-2" style="background-color:white;">
+		
+		<img src="images/f1logo.png" alt="Company Logo" width="80" height="60" style="margin-top:10px; margin: auto; display: block; ">
 
-<div class="container-fluid">
-	
-	<form class="form-inline" action="#" method="post">
-		<input type="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	</form>
-
-	<div class="row">
-		<div class="col-sm-2" style="background-color:yellow;">
-			<img src="images/f1logo.png" alt="Company Logo" width="80" height="60" style="margin-top:10px; margin: auto; display: block; ">
+		<p style="text-align:center; font-size:16px; padding:5px;" class="lead">Filter Table</p>
 			
 			<!-- vertical navbar -->
-			<nav style="margin:20px;" class="navbar bg-dark">
+		<nav style="margin:20px;" class="navbar bg-dark">
 
-				<!-- link -->
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a href="#" class="nav-link">Link 1</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Link 2</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Link 3</a>
-					</li>
-				</ul>
-			</nav>
+			<!-- link -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Filter by Genre</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Filter by Availability</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Filter by Price</a>
+				</li>
+			</ul>
+		</nav>
 
+	</div>
+
+	<div class="col-sm-10">
+		
+		<!-- d-flex -->
+	<div class="d-flex flex-row justify-content-space-around">
+		<div style="margin:20px padding:10px;">
+			<div class="card">
+				<div class="card-body">
+					<img src="images/notimetodie.jpg" style="margin:auto; display:block; width:80; height:80;">
+					<h4 class="card-title">Shmurda Team</h4>
+					<p class="card-text">Are We There Yet?</p>
+					<a href="#" class="card-link">aweekago@gmail.com</a>
+					<a href="#" class="card-link">Savage Mode</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-sm-10"></div>
+		<div style="margin:20px padding:10px;">
+			<div class="card">
+				<div class="card-body">
+					<img src="images/godzilla.jpg" style="margin:auto; display:block; width:80; height:80;">
+					<h4 class="card-title">Shmurda Team</h4>
+					<p class="card-text">Are We There Yet?</p>
+					<a href="#" class="card-link">aweekago@gmail.com</a>
+					<a href="#" class="card-link">Savage Mode</a>
+				</div>
+			</div>
+		</div>
+		<div style="margin:20px padding:10px;">
+			<div class="card">
+				<div class="card-body">
+					<img src="images/notimetodie.jpg" style="margin:auto; display:block; width:80; height:80;">
+					<h4 class="card-title">Shmurda Team</h4>
+					<p class="card-text">Are We There Yet?</p>
+					<a href="#" class="card-link">aweekago@gmail.com</a>
+					<a href="#" class="card-link">Savage Mode</a>
+				</div>
+			</div>
+		</div>
+		<div style="margin:20px padding:10px;">
+			<div class="card">
+				<div class="card-body">
+					<img src="images/godzilla.jpg" style="margin:auto; display:block; width:80; height:80;">
+					<h4 class="card-title">Shmurda Team</h4>
+					<p class="card-text">Are We There Yet?</p>
+					<a href="#" class="card-link">aweekago@gmail.com</a>
+					<a href="#" class="card-link">Savage Mode</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 	</div>
 
 </div>
-
 
 
 
